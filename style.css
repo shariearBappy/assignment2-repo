@@ -1,0 +1,75 @@
+@import "tailwindcss";
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 71.25rem;
+  margin: auto;
+  margin-top: 20px;
+}
+.logo {
+  width: 8.5remrem;
+  height: 5rem;
+}
+.navList {
+  width: 26rem;
+  height: 1.5rem;
+  margin-left: 37rem;
+  justify-content: space-between;
+}
+.navList-item {
+  margin-top: 32px;
+}
+.navLink {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #8784ac;
+}
+.bannerCont {
+  width: 71.25rem;
+
+  margin: auto;
+}
+.banner-tittle {
+  width: 35rem;
+  height: 11rem;
+  margin-top: 14rem;
+}
+.banner-tittle-div {
+}
+.banner-head {
+  font-family: "Noto";
+  font-size: 3rem;
+  color: #000000;
+}
+.banner-head span {
+  color: #e95a08;
+}
+.banner-des-div {
+  margin-top: 15px;
+  width: 370px;
+}
+.banner-des {
+  padding: 5px;
+  font-size: 14px;
+  font-family: "Inter";
+  color: rgba(0, 0, 0, 0.5);
+}
+.banner-img {
+  margin-top: 8rem;
+}
+.imgBanner {
+  width: 100%;
+}
