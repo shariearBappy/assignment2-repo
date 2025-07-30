@@ -47,9 +47,7 @@
   height: 11rem;
   margin-top: 14rem;
 }
-.banner-tittle-div {
-}
-.banner-head {
+.banner-tittle-div .banner-head {
   font-family: "Noto";
   font-size: 3rem;
   color: #000000;
