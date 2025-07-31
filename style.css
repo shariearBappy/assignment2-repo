@@ -141,3 +141,94 @@ body {
   font-size: 0.8rem;
   border-radius: 5px;
 }
+.discountSec {
+  width: 72.25rem;
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+  margin: auto;
+  margin-top: 7rem;
+}
+.discountCard {
+  width: 22rem;
+  height: 12.5rem;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  margin-bottom: 30px;
+}
+.discountDeal {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.bgColor {
+  width: 22rem;
+  height: 12.5rem;
+  background-color: #2a262684;
+  position: absolute;
+  top: 2150px;
+  left: 182px;
+  border-radius: 5px;
+}
+.discount {
+  position: absolute;
+  top: 2230px;
+  left: 270px;
+  color: white;
+  font-family: "Noto";
+  font-size: 17px;
+}
+.shop {
+  position: absolute;
+  top: 2256px;
+  left: 290px;
+  color: white;
+  margin-bottom: 3px;
+  text-decoration: underline;
+  font-family: "Inter";
+  font-size: 17px;
+}
+.discountCardZabo {
+  grid-column: span 3;
+  grid-column-start: 2;
+  position: absolute;
+  top: 2150px;
+  left: 560px;
+}
+.bgColorZabo {
+  width: 47rem;
+  height: 26.4rem;
+  background-color: #2a262661;
+  position: absolute;
+  top: 2150px;
+  left: 560px;
+  border-radius: 5px;
+}
+.discountZaboDeal {
+  position: absolute;
+  top: 2340px;
+  left: 780px;
+  color: rgb(255, 255, 255);
+  font-family: "Noto";
+  font-size: 30px;
+  font-weight: bold;
+}
+.shopZabo {
+  position: absolute;
+  top: 2385px;
+  left: 880px;
+  color: white;
+  margin-bottom: 3px;
+  text-decoration: underline;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.discountCardAna {
+  width: 22rem;
+  height: 12.5rem;
+  grid-template-columns: 1;
+  grid-column: span 1;
+  grid-column-start: 1;
+  grid-template-rows: 1;
+}
