@@ -14,6 +14,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #fbf8f8;
+}
 .container {
   width: 71.25rem;
   margin: auto;
@@ -47,13 +50,15 @@
   height: 11rem;
   margin-top: 14rem;
 }
-.banner-tittle-div .banner-head {
+.banner-head {
   font-family: "Noto";
   font-size: 3rem;
   color: #000000;
+  font-weight: bold;
 }
 .banner-head span {
   color: #e95a08;
+  font-weight: bold;
 }
 .banner-des-div {
   margin-top: 15px;
@@ -70,4 +75,69 @@
 }
 .imgBanner {
   width: 100%;
+}
+.planTittle {
+  width: 71.25rem;
+  margin: auto;
+  margin-top: 6rem;
+}
+.planHead {
+  text-align: center;
+  font-family: "Noto";
+  font-size: 3rem;
+  color: #000000;
+  font-weight: bold;
+}
+#tittleColor {
+  color: #e95a08;
+  font-weight: bold;
+}
+.planDes {
+  width: 60rem;
+  margin: auto;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.plan-des-tittle {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  color: #8784ac;
+  text-align: center;
+}
+.cardSec {
+  width: 72.25rem;
+  margin: auto;
+}
+.card {
+  width: 16.8rem;
+  height: 28rem;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.imgCard {
+  height: 20rem;
+  border-radius: 5px;
+}
+.flowerName {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "Inter";
+  padding-top: 1rem;
+}
+.flowerPrice {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Inter";
+  padding-bottom: 1rem;
+}
+.addCart {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #e95a08;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 0.8rem;
+  border-radius: 5px;
 }
